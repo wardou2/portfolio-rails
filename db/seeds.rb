@@ -18,8 +18,8 @@ user = User.create!(first_name: 'Douglas', last_name: 'Ward',
     email:"ward92@example.com", phone: '4345483214',
     username:"wardou2", password: ENV['CODERLOADER_PASSWORD'],
     title:"Full Stack Web Developer",
-    bio:'I can speak at length about my background and goals here',
-    intro:'My two-line elevator pitch',
+    bio: "Hello, my name is Douglas. I'm a Seattle-based web developer with a background in Electrical Engineering. I recently made the transition to software in order to pursue a career in more creative and energetic fields.",
+    intro:'Really likes coffee',
     img_url: '/images/temp-avatar.png',
     color_theme: 'theme-default'
 )
