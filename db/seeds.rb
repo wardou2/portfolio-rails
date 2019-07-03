@@ -102,7 +102,7 @@ Github.create(
     repo_url_front: "https://github.com/RylanBauermeister/under_the_table",
     demo_url: "https://donation-nation.herokuapp.com/",
     name: "Donation Nation",
-    img_url: '',
+    img_url: 'https://github.com/wardou2/portfolio-react/blob/master/public/images/Donation-Nation-Example.png?raw=true',
     summary: 'A satirical social media solution for fiscal entrepreneurship.',
     contribution: [
       'Built using Ruby on Rails MVC framework.',
