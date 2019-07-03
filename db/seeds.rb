@@ -19,7 +19,7 @@ user = User.create!(first_name: 'Douglas', last_name: 'Ward',
     username:"wardou2", password: ENV['CODERLOADER_PASSWORD'],
     title:"Full Stack Web Developer",
     bio: "Hello, my name is Douglas. I'm a Seattle-based web developer with a background in Electrical Engineering. I recently made the transition to software in order to pursue a career in more creative and energetic fields.",
-    intro:'Really likes coffee',
+    intro:'Full Stack Web Developer. Really likes coffee.',
     img_url: '/images/temp-avatar.png',
     color_theme: 'theme-default'
 )
@@ -76,7 +76,7 @@ Github.create(
     repo_url_back: "https://github.com/wardou2/portfolio-rails",
     demo_url: "",
     name: "Portfolio (this site!)",
-    img_url: '',
+    img_url: 'https://raw.githubusercontent.com/wardou2/portfolio-react/master/public/images/Portfolio-Example.png',
     summary: 'A single-page portfolio website for programmers.',
     contribution: [
       'Implemented a user interface employing React and Semantic-React.',
@@ -89,7 +89,7 @@ Github.create(
 Github.create(
     repo_url_front: "https://github.com/wardou2/album-report",
     name: "Album Report",
-    img_url: '',
+    img_url: 'https://raw.githubusercontent.com/wardou2/album-report/master/public/images/Album-Report-Example.png',
     summary: 'A website for tracking and taking notes on favorite albums.',
     contribution: [
       'Implemented Ruby on Rails API backend with endpoints for artists, notes, and albums.',
