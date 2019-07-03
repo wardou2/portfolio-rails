@@ -16,14 +16,16 @@ ActiveRecord::Schema.define(version: 2019_05_30_203131) do
   enable_extension "plpgsql"
 
   create_table "githubs", force: :cascade do |t|
-    t.string "repo_owner"
-    t.string "repo_name"
+    t.string "repo_url_front"
+    t.string "repo_url_back"
+    t.string "demo_url"
+    t.string "name"
     t.string "img_url"
     t.string "summary"
     t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "contribution"
+    t.string "contribution", default: [], array: true
     t.integer "order_id"
   end
 
