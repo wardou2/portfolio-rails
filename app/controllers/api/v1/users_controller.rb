@@ -38,6 +38,10 @@ class Api::V1::UsersController < ApplicationController
     render json: @user
   end
 
+  def sandbox
+      puts 'u r hur'
+  end
+
   private
 
   def user_params

@@ -9,6 +9,7 @@ Rails.application.routes.draw do
       resources :users, only: [:index, :create, :update, :destroy]
       resources :githubs, only: [:index, :create, :update, :destroy]
       post '/login', to: 'auth#create'
+      post '/sandbox', to: 'users#sandbox'
     end
   end
 end
